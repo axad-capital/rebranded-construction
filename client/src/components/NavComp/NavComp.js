@@ -1,4 +1,5 @@
 import React from 'react';
+import './navComp.css';
 import { Link, useLocation } from 'react-router-dom';
 
 const NavComp = () => {

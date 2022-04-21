@@ -8,6 +8,7 @@ import Plumbing from './pages/Plumbing';
 import HVAC from './pages/HVAC';
 import Solar from './pages/Solar';
 import LawnCare from './pages/LawnCare';
+import DirectTV from './pages/DirectTV'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/HVAC' element={<HVAC />} />
           <Route exact path='/solar' element={<Solar />} />
           <Route exact path='/lawn-care' element={<LawnCare />} />
+          <Route exact path='/direct-tv' element={<DirectTV />} />
         </Routes>
       </Router>
     </div>

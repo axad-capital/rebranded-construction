@@ -8,7 +8,7 @@ const NavComp = () => {
 
     return (
         <div>
-             <nav className="navbar navbar-expand-lg navbar-light bg-light">
+             <nav id='navi' className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <Link to='/' className='navbar-brand'>Rebranded Construction</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +36,9 @@ const NavComp = () => {
                             </li>
                             <li className="nav-item">
                                 <Link to='/lawn-care' className={location.pathname === '/lawn-care' ? 'nav-link active' : 'nav-link'}>Lawn Care</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to='/direct-tv' className={location.pathname === '/direct-tv' ? 'nav-link active' : 'nav-link'}>Direct TV</Link>
                             </li>
                             
                         </ul>

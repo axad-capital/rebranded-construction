@@ -1,8 +1,11 @@
 import React from 'react'
+import WindowComp from '../components/WindowComp/WindowComp'
 
 const Windows = () => {
   return (
-    <div>Windows</div>
+    <div>
+      <WindowComp />
+    </div>
   )
 }
 

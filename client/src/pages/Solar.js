@@ -1,8 +1,11 @@
 import React from 'react'
+import SolarComp from '../components/SolarComp/SolarComp'
 
 const Solar = () => {
   return (
-    <div>Solar</div>
+    <div>
+      <SolarComp />
+    </div>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import HVCAComp from '../components/HVAC/HVACComp'
 
 const HVAC = () => {
   return (
-    <div>HVAC</div>
+    <div>
+      <HVCAComp />
+    </div>
   )
 }
 
